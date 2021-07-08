@@ -4,17 +4,15 @@
 <p>Description: @Model.Description</p>
 
 <p>@Model.Name Enthusiasts: </p>
-<div style="border: solid 2px black; width:200px; height: 100px ;margin-bottom:50px">
     @{ 
         foreach (var e in Model.UserHobby)
         {
-        
-            <p style="padding-left: 10px;padding-top: 10px;">@e.User.FName @e.User.LName</p> 
-        
+        <ul style="margin-bottom: 50px; margin-top:20px">
+            <li>@e.User.FName @e.User.LName</li> 
+        </ul>
         }
     
     }
- </div>
 
 @{
 

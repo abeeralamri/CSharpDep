@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\abeer\\OneDrive\\Desktop\\Main\\C#_Stack\\ORM\\Exam\\Exam.csproj": {}
+    "C:\\Users\\abeer\\OneDrive\\Desktop\\CSharpDep\\Exam\\Exam.csproj": {}
   },
   "projects": {
-    "C:\\Users\\abeer\\OneDrive\\Desktop\\Main\\C#_Stack\\ORM\\Exam\\Exam.csproj": {
+    "C:\\Users\\abeer\\OneDrive\\Desktop\\CSharpDep\\Exam\\Exam.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\abeer\\OneDrive\\Desktop\\Main\\C#_Stack\\ORM\\Exam\\Exam.csproj",
+        "projectUniqueName": "C:\\Users\\abeer\\OneDrive\\Desktop\\CSharpDep\\Exam\\Exam.csproj",
         "projectName": "Exam",
-        "projectPath": "C:\\Users\\abeer\\OneDrive\\Desktop\\Main\\C#_Stack\\ORM\\Exam\\Exam.csproj",
+        "projectPath": "C:\\Users\\abeer\\OneDrive\\Desktop\\CSharpDep\\Exam\\Exam.csproj",
         "packagesPath": "C:\\Users\\abeer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\abeer\\OneDrive\\Desktop\\Main\\C#_Stack\\ORM\\Exam\\obj\\",
+        "outputPath": "C:\\Users\\abeer\\OneDrive\\Desktop\\CSharpDep\\Exam\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\abeer\\AppData\\Roaming\\NuGet\\NuGet.Config"
