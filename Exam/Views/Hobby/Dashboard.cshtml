@@ -1,0 +1,33 @@
+@model List<Hobby>
+
+<div class="Header" style="display: flex;">
+
+    <h1 style="margin-right: 900px;">Hobbies</h1>
+    <a href="/logout">Logout</a>
+
+</div>
+
+<table class="table">
+    <tr>
+        <th scope="col">Name</th>
+        <th scope="col">Enthusiasts</th>
+    
+    </tr>
+    @foreach (Hobby h in Model)
+    {
+        <tr>
+            <td>
+                <a href="Details/@h.HobbyId">@h.Name</a>
+            </td>
+            <td>
+                @h.UserHobby.Count
+            </td>
+          
+        </tr>
+    }
+    
+</table>
+
+<div class="footer">
+    <a href="/AddHobby">Create a Hobby</a>
+</div>

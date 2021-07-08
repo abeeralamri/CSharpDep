@@ -1,0 +1,36 @@
+@model Hobby
+<p><a href="/Dashboard">Dashboard</a> | <a href="/logout">Logout</a></p>
+<h1 style="margin-bottom: 50px;">@Model.Name</h1>
+<p>Description: @Model.Description</p>
+
+<p>@Model.Name Enthusiasts: </p>
+<div style="border: solid 2px black; width:200px; height: 100px ;margin-bottom:50px">
+    @{ 
+        foreach (var e in Model.UserHobby)
+        {
+        
+            <p style="padding-left: 10px;padding-top: 10px;">@e.User.FName @e.User.LName</p> 
+        
+        }
+    
+    }
+ </div>
+
+@{
+
+if (!Model.UserHobby.Any( a => a.UserId == ViewBag.UserID))
+    {
+        <a href="/enthusiast/@Model.HobbyId"><button class="btn btn-dark">Add to Hoppies</button></a>
+    }
+                       
+}
+
+
+@{
+    if(Model.UserId == ViewBag.UserID)
+    {
+        <a href="/edit/@Model.HobbyId"><button class="btn btn-dark">Edit</button></a>
+
+    }
+}
+                
